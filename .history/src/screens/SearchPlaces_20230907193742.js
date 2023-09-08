@@ -9,7 +9,7 @@ const SearchPlaces = () => {
                     placeholder='Search'
                     GooglePlacesDetailsQuery={{fields:'geometry'}}
                     query={{
-                        key: "AIzaSyCsjTBny6NYkAB7Gb6v1WCajXjpyyikexU",
+                        key: "Your API KEY here",
                         language: 'en',
                     }}
                     onPress={(data, details = null) => {

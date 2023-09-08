@@ -5,7 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import CurrentLocation from './src/screens/CurrentLocation';
 import Geocoder from 'react-native-geocoding';
 import SearchPlaces from './src/screens/SearchPlaces';
-Geocoder.init('AIzaSyCsjTBny6NYkAB7Gb6v1WCajXjpyyikexU', {language: 'en'});
+Geocoder.init('Your API KEY here', {language: 'en'});
 const App=()=>{
   const Stack=createStackNavigator();
   return(

@@ -64,7 +64,7 @@ const CurrentLocation = () => {
               console.log(data, details);
             }}
             query={{
-              key: "AIzaSyCsjTBny6NYkAB7Gb6v1WCajXjpyyikexU",
+              key: "Your API KEY here",
               language: 'en',
             }}
           />
